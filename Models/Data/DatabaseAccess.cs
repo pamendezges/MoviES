@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MendezPablo_Proyecto.Modelo.Data
+namespace MoviES.Models.Data
 {
     class DatabaseAccess
     {

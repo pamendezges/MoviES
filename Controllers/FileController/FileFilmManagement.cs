@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
-using MendezPablo_Proyecto.Controller.Implementations;
-using MendezPablo_Proyecto.Modelo.Content;
+using MoviES.Implementations;
+using MoviES.Models.Content;
 
-namespace MendezPablo_Proyecto.Controlador.DBController
+
+namespace MoviES.Controllers.FileController
 {
     class FileFilmManagement
     {

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
-namespace MendezPablo_Proyecto.Modelo.Person
+namespace MoviES.Models.Person
 {
     class Admin : Person
     {

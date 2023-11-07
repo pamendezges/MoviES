@@ -5,10 +5,11 @@ using System.Reflection;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
-using MendezPablo_Proyecto.Controller.Implementations;
-using MendezPablo_Proyecto.Modelo.Person;
+using MoviES.Implementations;
+using MoviES.Models.Person;
 
-namespace MendezPablo_Proyecto.Controlador.DBController
+
+namespace MoviES.Controllers.FileController
 {
     class FileUserManagement
     {       

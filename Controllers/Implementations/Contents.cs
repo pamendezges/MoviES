@@ -4,10 +4,10 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using MendezPablo_Proyecto.Controller.Interfaces;
-using MendezPablo_Proyecto.Modelo.Content;
+using MoviES.Interfaces;
+using MoviES.Models.Content;
 
-namespace MendezPablo_Proyecto.Controller.Implementations
+namespace MoviES.Implementations
 {
     class Contents : IContentManagement
     {
