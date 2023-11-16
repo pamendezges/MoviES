@@ -21,11 +21,11 @@ namespace MoviES.Implementations
             Billboard = new List<Content>();
         }
 
-        public void AddContent(Content c)
+        public void AddContent(Content content)
         {
-            if (c != null)
+            if (content != null)
             {
-                Billboard.Add(c);
+                Billboard.Add(content);
             }
             else
             {
@@ -33,11 +33,11 @@ namespace MoviES.Implementations
             }
         }
 
-        public void DeleteContent(Content c)
+        public void DeleteContent(Content content)
         {
-            if (c != null & Billboard.Contains(c))
+            if (content != null & Billboard.Contains(content))
             {
-                Billboard.Remove(c);
+                Billboard.Remove(content);
             }
             else
             {
@@ -57,15 +57,15 @@ namespace MoviES.Implementations
             Console.WriteLine();
         }
 
-        public void RateContent(Content c) //AVERAGE
+        public void RateContent(Content content) //Gets the average rating
         {
-            int sum = c.Rating * c.NumOfRates;
+            int sum = content.Rating * content.NumOfRates;
             int rate = 0;
-            Console.WriteLine("¿Que nota le das a " + c.Title + "?. Selecciona un numero del 1 al 5.");
+            Console.WriteLine("¿Que nota le das a " + content.Title + "?. Selecciona un numero del 1 al 5.");
             rate = Convert.ToInt32(Console.ReadLine());
             sum = sum + rate;
-            c.NumOfRates++;
-            c.Rating = sum / c.NumOfRates;
+            content.NumOfRates++;
+            content.Rating = sum / content.NumOfRates;
         }
 
     }

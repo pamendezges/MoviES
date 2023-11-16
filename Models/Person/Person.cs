@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MoviES.Models.Person
 {
-    abstract class Person
+    public abstract class Person
     {
         private int id;
         private string name;

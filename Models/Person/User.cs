@@ -14,7 +14,7 @@ namespace MoviES.Models.Person
         private bool parentControl;
 
         public User(int id, string name, string password) :
-               this(id, name, password, string.Empty, 0, false)
+               this(id, name, password, "Standard", 1, false)
         { }
 
         public User(int id, string name, string password, string monthlyPlan, int numProfiles, bool parentControl) : base(id, name, password)

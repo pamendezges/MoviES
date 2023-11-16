@@ -20,11 +20,11 @@ namespace MoviES.Implementations
             Logins = new List<Person>();
         }
 
-        public void AddPerson(Person p)
+        public void AddPerson(Person person)
         {
-            if (p != null)
+            if (person != null)
             {
-                Logins.Add(p);
+                Logins.Add(person);
             }
             else
             {
@@ -32,11 +32,11 @@ namespace MoviES.Implementations
             }
         }
 
-        public void DeletePerson(Person p)
+        public void DeletePerson(Person person)
         {
-            if (p != null & Logins.Contains(p))
+            if (person != null & Logins.Contains(person))
             {
-                Logins.Remove(p);
+                Logins.Remove(person);
             }
             else
             {
@@ -55,13 +55,5 @@ namespace MoviES.Implementations
             }
             Console.WriteLine();
         }
-
-        public void ModifyPerson(Person p)
-        {
-
-        }
-
-
-
     }
 }
